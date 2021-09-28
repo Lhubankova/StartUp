@@ -41,6 +41,9 @@ $(function () {
         $('.header__menu').fadeToggle();
         $(this).toggleClass('change');
     });
+    $('.header__menu-item').on('click', function () {
+        $('.header__menu').fadeToggle();
+    });
 
     mixitup('.portfolio__inner');
 
